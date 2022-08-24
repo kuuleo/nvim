@@ -12,4 +12,6 @@ packer.startup(function(use)
     'svrana/neosolarized.nvim',
     requires = { 'tjdevries/colorbuddy.nvim' }
   }
+  use 'hoob3rt/lualine.nvim' -- Statusline
+  use 'neovim/nvim-lspconfig' -- LSP
 end)
